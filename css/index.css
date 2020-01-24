@@ -167,6 +167,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #f6f6f6;
 }
 .navContainer a {
   text-decoration: none;
@@ -174,7 +175,7 @@ p {
 .navContainer #title {
   font-size: 4.5rem;
   text-align: center;
-  margin: 2% 0;
+  margin: 3% 0;
   text-decoration: none;
 }
 .navContainer nav {
@@ -192,7 +193,7 @@ p {
   }
 }
 .navContainer nav a {
-  margin: 2% 0;
+  margin: 3% 0;
   text-align: center;
   text-decoration: none;
   color: #454a59;
