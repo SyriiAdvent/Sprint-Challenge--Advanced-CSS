@@ -1,1 +1,77 @@
 // Navigation code here
+
+.navContainer {
+  width: 100%;
+  .flexColumn(center, center);
+  background-color: @nav-bg;
+
+  a {
+    text-decoration: none;
+  }
+
+  #title {
+    font-size: 4.5rem;
+    text-align: center;
+    margin: @globalMargin;
+    // padding: 2% 0;
+    text-decoration: none;
+  }
+
+  nav {
+    width: 100%;
+    .flex;
+    justify-content: center;
+    align-items: center;
+
+    .links {
+      width: 44rem;
+      .flex();
+      justify-content: space-evenly;
+      align-items: center;
+      overflow: hidden;
+
+      @media @phone {
+        // width: 100%;
+        // padding: 0 10%;
+      }
+    }
+    // width: 100%;
+    // padding: 0 24%;
+    // .flex();
+    // justify-content: space-evenly;
+    // align-items: center;
+    // overflow: hidden;
+
+    // @media @phone {
+    //   width: 100%;
+    //   padding: 0 10%;
+    // }
+
+    a {
+      width: 100%;
+      margin: @globalMargin;
+      // width: 3rem;
+      text-align: center;
+      text-decoration: none;
+      color: @nav-font;
+      font-size: 1.6rem;
+
+      h1 {
+        text-decoration: none;
+      }
+
+      @media @phone {
+        width: 30%;
+      }
+    }
+  }
+}
+
+.sticky {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.8;
+  border-bottom: 1px solid black;
+}
